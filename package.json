@@ -6,8 +6,8 @@
   "scripts": {
     "build": "webpack",
     "build-prod": "webpack -p --env production",
-    "start": "npm run build-prod && node server/index.js",
-    "start-server":"webpack-dev-server --watch"
+    "start-server": "webpack-dev-server --watch",
+    "start": "npm run build-prod && node server/index.js"
   },
   "keywords": [],
   "author": "",
